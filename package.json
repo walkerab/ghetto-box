@@ -1,0 +1,19 @@
+{
+  "name": "ghetto-box",
+  "version": "0.0.1",
+  "description": "A collection of CSS classes for doing layout.",
+  "main": "gulpfile.js",
+  "directories": {
+    "test": "tests"
+  },
+  "dependencies": {
+    "gulp": "~3.8.5",
+    "gulp-stylus": "~1.0.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Andrew Walker",
+  "license": "BSD-2-Clause"
+}

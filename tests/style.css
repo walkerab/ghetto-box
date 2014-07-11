@@ -1,0 +1,25 @@
+body {
+	font-family: sans-serif;
+}
+
+.cs-0 {
+	background-color: #FFF;
+	color: #222;
+}
+
+.cs-1 {
+	background-color: #2FB0CC;
+	color: #FFF;
+}
+
+.cs-2 {
+	background-color: #CC316E;
+	color: #FFF;
+}
+
+.btn {
+	vertical-align: middle;
+	border-radius: 2px;
+	border-style: solid;
+	padding: 0.5em 1em;
+}
