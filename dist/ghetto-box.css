@@ -19,6 +19,7 @@ html {
 }
 .table {
   display: table;
+  width: 100%;
 }
 .table-row {
   display: table-row;
@@ -752,6 +753,26 @@ html {
     padding-left: 52px;
     padding-right: 52px;
   }
+}
+.grouped-border.tile:not(:first-of-type),
+.grouped-border.table-cell:not(:first-of-type) {
+  border-left-width: 0;
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+}
+.grouped-border.tile:not(:last-of-type),
+.grouped-border.table-cell:not(:last-of-type) {
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+}
+.grouped-border:not(.tile):not(.table-cell):not(:first-of-type) {
+  border-top-width: 0;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+}
+.grouped-border:not(.tile):not(.table-cell):not(:last-of-type) {
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
 }
 .content h1,
 .content h2,

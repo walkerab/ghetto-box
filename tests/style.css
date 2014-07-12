@@ -28,9 +28,8 @@ html {
 
 .btn {
 	text-decoration: none;
-	display: inline-block;
 	vertical-align: middle;
-	border-radius: 2px;
+	border-radius: 5px;
 	border-style: solid;
 	padding: 0.5em 1em;
 }
