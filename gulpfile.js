@@ -7,4 +7,8 @@ gulp.task('stylus', function() {
 		.pipe(gulp.dest('./dist/'));
 });
 
-gulp.task('default',['stylus']);
+gulp.task('default',['stylus'],function(){
+	gulp.watch('./src/styl/*', function(){
+		gulp.run('stylus');
+	});
+});
