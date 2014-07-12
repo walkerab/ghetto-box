@@ -1,4 +1,4 @@
-body {
+html {
 	font-family: sans-serif;
 }
 
@@ -12,12 +12,23 @@ body {
 	color: #FFF;
 }
 
+	.cs-1:active {
+		background-color: #1EA0DD;
+		color: #EEE;
+	}
+
 .cs-2 {
 	background-color: #CC316E;
 	color: #FFF;
 }
 
+.text-lg {
+	font-size: 26px;
+}
+
 .btn {
+	text-decoration: none;
+	display: inline-block;
 	vertical-align: middle;
 	border-radius: 2px;
 	border-style: solid;
