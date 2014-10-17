@@ -514,6 +514,18 @@ html {
   padding-top: 13px;
   padding-bottom: 13px;
 }
+.pad-top-sm {
+  padding-top: 13px;
+}
+.pad-bottom-sm {
+  padding-bottom: 13px;
+}
+.pad-left-sm {
+  padding-left: 13px;
+}
+.pad-right-sm {
+  padding-right: 13px;
+}
 .pad-md {
   padding: 26px;
 }
@@ -524,6 +536,18 @@ html {
 .pad-v-md {
   padding-top: 26px;
   padding-bottom: 26px;
+}
+.pad-top-md {
+  padding-top: 26px;
+}
+.pad-bottom-md {
+  padding-bottom: 26px;
+}
+.pad-left-md {
+  padding-left: 26px;
+}
+.pad-right-md {
+  padding-right: 26px;
 }
 .pad-lg {
   padding: 52px;
@@ -536,6 +560,18 @@ html {
   padding-top: 52px;
   padding-bottom: 52px;
 }
+.pad-top-lg {
+  padding-top: 52px;
+}
+.pad-bottom-lg {
+  padding-bottom: 52px;
+}
+.pad-left-lg {
+  padding-left: 52px;
+}
+.pad-right-lg {
+  padding-right: 52px;
+}
 .pad-xl {
   padding: 104px;
 }
@@ -546,6 +582,18 @@ html {
 .pad-v-xl {
   padding-top: 104px;
   padding-bottom: 104px;
+}
+.pad-top-xl {
+  padding-top: 104px;
+}
+.pad-bottom-xl {
+  padding-bottom: 104px;
+}
+.pad-left-xl {
+  padding-left: 104px;
+}
+.pad-right-xl {
+  padding-right: 104px;
 }
 @media screen and (min-width: 768px) {
   .pad-sm-768 {
