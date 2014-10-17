@@ -4,6 +4,7 @@ var stylus = require('gulp-stylus');
 gulp.task('stylus', function() {
 	gulp.src('./src/styl/ghetto-box.styl')
 		.pipe(stylus({errors: true}))
+		.on('error', console.log)
 		.pipe(gulp.dest('./dist/'));
 });
 
