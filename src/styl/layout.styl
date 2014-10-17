@@ -42,9 +42,27 @@ html
 .h-align-left
 	text-align left
 
-.h-align-center,
 .h-align-middle
 	text-align center
 
 .h-align-right
 	text-align right
+
+h-align-justify()
+	text-align justify
+	font-size 0
+	line-height normal
+	&:after
+		display inline-block
+		content ""
+		width 100%
+	& > *
+		font-size font-size
+		line-height line-height
+
+.h-align-justify
+	h-align-justify()
+
+@media all and (min-width: screen-sizes['sm'])
+	.h-align-justify-sm
+		h-align-justify()
