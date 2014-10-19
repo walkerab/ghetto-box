@@ -6,12 +6,3 @@ for denominator in widths
 	for numerator in (1..(denominator - 1))
 		.w-{numerator}-{denominator}
 			width (100 * numerator/denominator)%
-
-for screen-name, screen-size in screen-sizes
-	@media screen and (min-width: screen-size)
-		.container
-			max-width: screen-size
-		for denominator in widths
-			for numerator in (1..(denominator - 1))
-				.w-{numerator}-{denominator}-{screen-name}
-					width (100 * numerator/denominator)%

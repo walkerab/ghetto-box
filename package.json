@@ -8,7 +8,8 @@
   },
   "dependencies": {
     "gulp": "~3.8.5",
-    "gulp-stylus": "~1.0.2"
+    "gulp-stylus": "~1.0.2",
+    "gulp-postcss": "~2.0.0"
   },
   "devDependencies": {},
   "scripts": {

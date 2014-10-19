@@ -15,16 +15,3 @@ for padding-name, padding-size in padding-sizes
 		padding-left padding-size
 	.pad-right-{padding-name}
 		padding-right padding-size
-
-for screen-name, screen-size in screen-sizes
-	@media screen and (min-width: screen-size)
-		for padding-name, padding-size in padding-sizes
-			.pad-{padding-name}-{screen-size}
-				padding padding-size
-			.pad-h-{padding-name}-{screen-size}
-				padding-left padding-size
-				padding-right padding-size
-			.pad-v-{padding-name}-{screen-size}
-				padding-top padding-size
-				padding-bottom padding-size
-
