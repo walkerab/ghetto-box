@@ -48,20 +48,18 @@ gulp.task('stylus', function() {
 					media_query.append(new_rule);
 				});
 
-				if (i > 0) {
-					var container = postcss.rule({
-						selector: '.container'
-					});
-					container.append({
-						prop: 'margin',
-						value: 'auto'
-					});
-					container.append({
-						prop: 'max-width',
-						value: screen_sizes[i-1].size
-					});
-					media_query.append(container);
-				}
+				var container = postcss.rule({
+					selector: '.container'
+				});
+				container.append({
+					prop: 'margin',
+					value: 'auto'
+				});
+				container.append({
+					prop: 'max-width',
+					value: screen_size.size
+				});
+				media_query.append(container);
 
 				to_be_appended.push(media_query);
 			}
