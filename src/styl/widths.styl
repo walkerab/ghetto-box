@@ -1,8 +1,12 @@
-.container
-	margin auto
-	max-width default-screen-size
+.w-fill
+	width 100%
+
+
+for x in (20..50)
+	.w-{x}
+		width (x * line-height)
 
 for denominator in widths
-	for numerator in (1..(denominator - 1))
+	for numerator in (1..(denominator))
 		.w-{numerator}-{denominator}
 			width (100 * numerator/denominator)%
