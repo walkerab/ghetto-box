@@ -18,12 +18,53 @@ var screen_sizes = [
 	}
 ];
 
+var font_sizes = [
+	{
+		name: 'xs',
+		font_size: '9px',
+		line_height: '13px'
+	},
+	{
+		name: 'sm',
+		font_size: '12px',
+		line_height: '18px'
+	},
+	{
+		name: 'md',
+		font_size: '18px',
+		line_height: '26px'
+	},
+	{
+		name: 'lg',
+		font_size: '26px',
+		line_height: '32px'
+	},
+	{
+		name: 'xl',
+		font_size: '32px',
+		line_height: '36px'
+	},
+	{
+		name: 'xxl',
+		font_size: '48px',
+		line_height: '54px'
+	}
+];
+
 gulp.task('stylus', function() {
 	gulp.src('./src/styl/ghetto-box.styl')
 		.pipe(stylus({errors: true}))
 		.on('error', console.log)
 		.pipe(gulp_postcss([function(css) {
-			// Defer appending until all the rules are created.
+			// Font Sizes
+			font_sizes.forEach(function(font_size) {
+				var rule = postcss.rule({selector: '.fs-'+font_size.name});
+				rule.append({prop: 'font-size', value: font_size.font_size});
+				rule.append({prop: 'line-height', value: font_size.line_height});
+				css.append(rule);
+			});
+
+			// Defer appending until all the @media rules are created.
 			// This is to prevent things like `.md-sm-pad-md`
 			var to_be_appended = [];
 			for (var i = 0; i < screen_sizes.length; i++) {
