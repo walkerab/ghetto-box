@@ -22,6 +22,14 @@ html {
 	color: #FFF;
 }
 
+	.cs-2 a {
+		color: rgb(255, 239, 218);
+	}
+
+	.cs-2 a:hover {
+		color: rgb(219, 196, 165);
+	}
+
 .text-lg {
 	font-size: 26px;
 }
