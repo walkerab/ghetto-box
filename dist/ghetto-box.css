@@ -59,6 +59,10 @@ html {
   font-size: 20px;
   line-height: 26px;
 }
+.h-align-middle {
+  margin-left: auto;
+  margin-right: auto;
+}
 .w-fill {
   width: 100%;
 }
@@ -529,6 +533,10 @@ html {
   font-size: 20px;
   line-height: 26px;
 }
+.sm-h-align-middle {
+  margin-left: auto;
+  margin-right: auto;
+}
 .sm-w-fill {
   width: 100%;
 }
@@ -983,6 +991,10 @@ html {
   font-size: 20px;
   line-height: 26px;
 }
+.md-h-align-middle {
+  margin-left: auto;
+  margin-right: auto;
+}
 .md-w-fill {
   width: 100%;
 }
@@ -1436,6 +1448,10 @@ html {
 .lg-tiles-justify > .tile {
   font-size: 20px;
   line-height: 26px;
+}
+.lg-h-align-middle {
+  margin-left: auto;
+  margin-right: auto;
 }
 .lg-w-fill {
   width: 100%;
