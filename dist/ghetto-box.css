@@ -27,36 +27,35 @@ html {
 .table-cell {
   display: table-cell;
 }
-.v-align-top {
+.tile-top {
   vertical-align: top;
 }
-.v-align-center,
-.v-align-middle {
+.tile-middle {
   vertical-align: middle;
 }
-.v-align-bottom {
+.tile-bottom {
   vertical-align: bottom;
 }
-.h-align-left {
+.tiles-left {
   text-align: left;
 }
-.h-align-middle {
+.tiles-middle {
   text-align: center;
 }
-.h-align-right {
+.tiles-right {
   text-align: right;
 }
-.h-align-justify {
+.tiles-justify {
   text-align: justify;
   font-size: 0;
   line-height: normal;
 }
-.h-align-justify:after {
+.tiles-justify:after {
   display: inline-block;
   content: "";
   width: 100%;
 }
-.h-align-justify > .tile {
+.tiles-justify > .tile {
   font-size: 20px;
   line-height: 26px;
 }
@@ -498,35 +497,35 @@ html {
 .sm-table-cell {
   display: table-cell;
 }
-.sm-v-align-top {
+.sm-tile-top {
   vertical-align: top;
 }
-.sm-v-align-center, .sm-v-align-middle {
+.sm-tile-middle {
   vertical-align: middle;
 }
-.sm-v-align-bottom {
+.sm-tile-bottom {
   vertical-align: bottom;
 }
-.sm-h-align-left {
+.sm-tiles-left {
   text-align: left;
 }
-.sm-h-align-middle {
+.sm-tiles-middle {
   text-align: center;
 }
-.sm-h-align-right {
+.sm-tiles-right {
   text-align: right;
 }
-.sm-h-align-justify {
+.sm-tiles-justify {
   text-align: justify;
   font-size: 0;
   line-height: normal;
 }
-.sm-h-align-justify:after {
+.sm-tiles-justify:after {
   display: inline-block;
   content: "";
   width: 100%;
 }
-.sm-h-align-justify > .tile {
+.sm-tiles-justify > .tile {
   font-size: 20px;
   line-height: 26px;
 }
@@ -952,35 +951,35 @@ html {
 .md-table-cell {
   display: table-cell;
 }
-.md-v-align-top {
+.md-tile-top {
   vertical-align: top;
 }
-.md-v-align-center, .md-v-align-middle {
+.md-tile-middle {
   vertical-align: middle;
 }
-.md-v-align-bottom {
+.md-tile-bottom {
   vertical-align: bottom;
 }
-.md-h-align-left {
+.md-tiles-left {
   text-align: left;
 }
-.md-h-align-middle {
+.md-tiles-middle {
   text-align: center;
 }
-.md-h-align-right {
+.md-tiles-right {
   text-align: right;
 }
-.md-h-align-justify {
+.md-tiles-justify {
   text-align: justify;
   font-size: 0;
   line-height: normal;
 }
-.md-h-align-justify:after {
+.md-tiles-justify:after {
   display: inline-block;
   content: "";
   width: 100%;
 }
-.md-h-align-justify > .tile {
+.md-tiles-justify > .tile {
   font-size: 20px;
   line-height: 26px;
 }
@@ -1406,35 +1405,35 @@ html {
 .lg-table-cell {
   display: table-cell;
 }
-.lg-v-align-top {
+.lg-tile-top {
   vertical-align: top;
 }
-.lg-v-align-center, .lg-v-align-middle {
+.lg-tile-middle {
   vertical-align: middle;
 }
-.lg-v-align-bottom {
+.lg-tile-bottom {
   vertical-align: bottom;
 }
-.lg-h-align-left {
+.lg-tiles-left {
   text-align: left;
 }
-.lg-h-align-middle {
+.lg-tiles-middle {
   text-align: center;
 }
-.lg-h-align-right {
+.lg-tiles-right {
   text-align: right;
 }
-.lg-h-align-justify {
+.lg-tiles-justify {
   text-align: justify;
   font-size: 0;
   line-height: normal;
 }
-.lg-h-align-justify:after {
+.lg-tiles-justify:after {
   display: inline-block;
   content: "";
   width: 100%;
 }
-.lg-h-align-justify > .tile {
+.lg-tiles-justify > .tile {
   font-size: 20px;
   line-height: 26px;
 }
