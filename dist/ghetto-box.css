@@ -59,17 +59,12 @@ html {
 }
 .tiles-justify {
   text-align: justify;
-  font-size: 0;
   line-height: normal;
 }
 .tiles-justify:after {
   display: inline-block;
   content: "";
   width: 100%;
-}
-.tiles-justify > .tile {
-  font-size: 20px;
-  line-height: 26px;
 }
 .h-align-middle {
   margin-left: auto;
@@ -553,17 +548,12 @@ html {
 }
 .sm-tiles-justify {
   text-align: justify;
-  font-size: 0;
   line-height: normal;
 }
 .sm-tiles-justify:after {
   display: inline-block;
   content: "";
   width: 100%;
-}
-.sm-tiles-justify > .tile {
-  font-size: 20px;
-  line-height: 26px;
 }
 .sm-h-align-middle {
   margin-left: auto;
@@ -1020,17 +1010,12 @@ html {
 }
 .md-tiles-justify {
   text-align: justify;
-  font-size: 0;
   line-height: normal;
 }
 .md-tiles-justify:after {
   display: inline-block;
   content: "";
   width: 100%;
-}
-.md-tiles-justify > .tile {
-  font-size: 20px;
-  line-height: 26px;
 }
 .md-h-align-middle {
   margin-left: auto;
@@ -1487,17 +1472,12 @@ html {
 }
 .lg-tiles-justify {
   text-align: justify;
-  font-size: 0;
   line-height: normal;
 }
 .lg-tiles-justify:after {
   display: inline-block;
   content: "";
   width: 100%;
-}
-.lg-tiles-justify > .tile {
-  font-size: 20px;
-  line-height: 26px;
 }
 .lg-h-align-middle {
   margin-left: auto;
