@@ -1,5 +1,5 @@
 html {
-  font-size: 20px;
+  font-size: 18px;
   line-height: 26px;
 }
 @font-face {
@@ -11,7 +11,7 @@ html {
   font-family: empty !important;
 }
 .tiles > .tile {
-  font-size: 20px;
+  font-size: 18px;
   font-family: sans-serif;
 }
 * {
@@ -492,7 +492,7 @@ html {
   font-family: sans-serif
 }
 @media all and (min-width: 768px) {html {
-  font-size: 20px;
+  font-size: 18px;
   line-height: 26px;
 }
 .sm-tiles {
@@ -500,7 +500,7 @@ html {
   font-family: empty !important;
 }
 .sm-tiles > .tile {
-  font-size: 20px;
+  font-size: 18px;
   font-family: sans-serif;
 }
 * {
@@ -954,7 +954,7 @@ html {
 }
 }
 @media all and (min-width: 992px) {html {
-  font-size: 20px;
+  font-size: 18px;
   line-height: 26px;
 }
 .md-tiles {
@@ -962,7 +962,7 @@ html {
   font-family: empty !important;
 }
 .md-tiles > .tile {
-  font-size: 20px;
+  font-size: 18px;
   font-family: sans-serif;
 }
 * {
@@ -1416,7 +1416,7 @@ html {
 }
 }
 @media all and (min-width: 1200px) {html {
-  font-size: 20px;
+  font-size: 18px;
   line-height: 26px;
 }
 .lg-tiles {
@@ -1424,7 +1424,7 @@ html {
   font-family: empty !important;
 }
 .lg-tiles > .tile {
-  font-size: 20px;
+  font-size: 18px;
   font-family: sans-serif;
 }
 * {
