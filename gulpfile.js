@@ -50,6 +50,8 @@ var font_sizes = [
 		line_height: '54px'
 	}
 ];
+var base_font_size = '18px';
+var base_font_family = 'sans-serif';
 
 gulp.task('stylus', function() {
 	gulp.src('./src/styl/ghetto-box.styl')
@@ -104,6 +106,23 @@ gulp.task('stylus', function() {
 
 				to_be_appended.push(media_query);
 			}
+
+			screen_sizes.forEach(function(screen_size) {
+				var tile_reset_rule = postcss.rule({
+					selector: '.tiles > .'+screen_size.name+'-tile'
+				});
+				tile_reset_rule.append({
+					prop: 'font-size',
+					value: base_font_size
+				});
+				tile_reset_rule.append({
+					prop: 'font-family',
+					value: base_font_family
+				});
+
+				css.append(tile_reset_rule);
+			});
+
 			to_be_appended.forEach(function(append_me) {
 				css.append(append_me);
 			});
