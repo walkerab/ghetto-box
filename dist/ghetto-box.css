@@ -10,7 +10,7 @@ html {
   font-size: 0 !important;
   font-family: empty !important;
 }
-.tiles > .tile {
+.tiles > * {
   font-size: 18px;
   font-family: sans-serif;
 }
@@ -500,18 +500,6 @@ img {
   font-size: 48px;
   line-height: 54px
 }
-.tiles > .sm-tile {
-  font-size: 18px;
-  font-family: sans-serif
-}
-.tiles > .md-tile {
-  font-size: 18px;
-  font-family: sans-serif
-}
-.tiles > .lg-tile {
-  font-size: 18px;
-  font-family: sans-serif
-}
 @media all and (min-width: 768px) {html {
   font-size: 18px;
   line-height: 26px;
@@ -520,7 +508,7 @@ img {
   font-size: 0 !important;
   font-family: empty !important;
 }
-.sm-tiles > .tile {
+.sm-tiles > * {
   font-size: 18px;
   font-family: sans-serif;
 }
@@ -988,7 +976,7 @@ img {
   font-size: 0 !important;
   font-family: empty !important;
 }
-.md-tiles > .tile {
+.md-tiles > * {
   font-size: 18px;
   font-family: sans-serif;
 }
@@ -1456,7 +1444,7 @@ img {
   font-size: 0 !important;
   font-family: empty !important;
 }
-.lg-tiles > .tile {
+.lg-tiles > * {
   font-size: 18px;
   font-family: sans-serif;
 }
