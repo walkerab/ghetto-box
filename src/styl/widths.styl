@@ -1,6 +1,11 @@
 .w-fill
 	width 100%
 
+.shift
+	position relative
+
+.no-shift
+	position static
 
 for x in (20..50)
 	.w-{x}
@@ -10,3 +15,9 @@ for denominator in widths
 	for numerator in (1..(denominator))
 		.w-{numerator}-{denominator}
 			width (100 * numerator/denominator)%
+		
+		.shift-left-{numerator}-{denominator}
+			right (100 * numerator/denominator)%
+			
+		.shift-right-{numerator}-{denominator}
+			left (100 * numerator/denominator)%
