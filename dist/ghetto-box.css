@@ -57,7 +57,7 @@ img {
 .tiles-left {
   text-align: left;
 }
-.tiles-middle {
+.tiles-center {
   text-align: center;
 }
 .tiles-right {
@@ -866,7 +866,7 @@ img {
 .sm-tiles-left {
   text-align: left;
 }
-.sm-tiles-middle {
+.sm-tiles-center {
   text-align: center;
 }
 .sm-tiles-right {
@@ -1643,7 +1643,7 @@ img {
 .md-tiles-left {
   text-align: left;
 }
-.md-tiles-middle {
+.md-tiles-center {
   text-align: center;
 }
 .md-tiles-right {
@@ -2420,7 +2420,7 @@ img {
 .lg-tiles-left {
   text-align: left;
 }
-.lg-tiles-middle {
+.lg-tiles-center {
   text-align: center;
 }
 .lg-tiles-right {
