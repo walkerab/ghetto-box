@@ -17,7 +17,6 @@ html {
 * {
   margin: 0;
   padding: 0;
-  text-align: left;
   box-sizing: border-box;
   -moz-box-sizing: border-box;
   -webkit-box-sizing: border-box;
@@ -26,6 +25,7 @@ img {
   vertical-align: top;
 }
 .tile {
+  text-align: left;
   vertical-align: top;
   display: inline-block;
 }
@@ -826,7 +826,6 @@ img {
 * {
   margin: 0;
   padding: 0;
-  text-align: left;
   box-sizing: border-box;
   -moz-box-sizing: border-box;
   -webkit-box-sizing: border-box;
@@ -835,6 +834,7 @@ img {
   vertical-align: top;
 }
 .sm-tile {
+  text-align: left;
   vertical-align: top;
   display: inline-block;
 }
@@ -1603,7 +1603,6 @@ img {
 * {
   margin: 0;
   padding: 0;
-  text-align: left;
   box-sizing: border-box;
   -moz-box-sizing: border-box;
   -webkit-box-sizing: border-box;
@@ -1612,6 +1611,7 @@ img {
   vertical-align: top;
 }
 .md-tile {
+  text-align: left;
   vertical-align: top;
   display: inline-block;
 }
@@ -2380,7 +2380,6 @@ img {
 * {
   margin: 0;
   padding: 0;
-  text-align: left;
   box-sizing: border-box;
   -moz-box-sizing: border-box;
   -webkit-box-sizing: border-box;
@@ -2389,6 +2388,7 @@ img {
   vertical-align: top;
 }
 .lg-tile {
+  text-align: left;
   vertical-align: top;
   display: inline-block;
 }
