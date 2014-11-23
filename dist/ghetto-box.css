@@ -72,7 +72,7 @@ img {
   content: "";
   width: 100%;
 }
-.tiles-justify > .tile {
+.tiles-justify > * {
   text-align: left;
 }
 .h-align-middle {
@@ -884,7 +884,7 @@ img {
   content: "";
   width: 100%;
 }
-.sm-tiles-justify > .tile {
+.sm-tiles-justify > * {
   text-align: left;
 }
 .sm-h-align-middle {
@@ -1664,7 +1664,7 @@ img {
   content: "";
   width: 100%;
 }
-.md-tiles-justify > .tile {
+.md-tiles-justify > * {
   text-align: left;
 }
 .md-h-align-middle {
@@ -2444,7 +2444,7 @@ img {
   content: "";
   width: 100%;
 }
-.lg-tiles-justify > .tile {
+.lg-tiles-justify > * {
   text-align: left;
 }
 .lg-h-align-middle {
