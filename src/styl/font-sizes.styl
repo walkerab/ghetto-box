@@ -1,0 +1,6 @@
+for font-size-name, font-props in font-sizes
+	.fs-{font-size-name}
+		// Need to use colons when using a hash value otherwise will get "unexpected indent/outdent error"
+		// http://stackoverflow.com/questions/22796786/stylus-throw-me-an-expected-indent-got-outdent-but-i-have-no-idea-why
+		font-size: font-props['size']
+		line-height: font-props['lineheight']

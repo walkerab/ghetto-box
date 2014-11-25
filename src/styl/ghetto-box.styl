@@ -1,10 +1,27 @@
 @import 'variables.styl'
 @import 'font-and-line-size.styl'
 @import 'no-space.styl'
-@import 'layout.styl'
-@import 'hide.styl'
-@import 'widths.styl'
-@import 'padding.styl'
-@import 'border.styl'
 @import 'content.styl'
 @import 'readable.styl'
+
+// Use a function here instead of a block because of strange (caching?) behaviour
+// TODO: File a bug report on this. Try switching `prefixed-modules` to be a block definition replacing calls to `prefixed-modules()` with `{prefixed-modules}`.
+prefixed-modules()
+	@import 'layout.styl'
+	@import 'hide.styl'
+	@import 'widths.styl'
+	@import 'padding.styl'
+	@import 'border.styl'
+	@import 'font-sizes.styl'
+
+prefixed-modules()
+
+for screen-size-name, screen-size-value in screen-sizes
+	@media all and (min-width: screen-size-value)
+		.container
+			max-width screen-size-value
+			margin-left auto
+			margin-right auto
+			
+		+prefix-classes(screen-size-name + '-')
+			prefixed-modules()
