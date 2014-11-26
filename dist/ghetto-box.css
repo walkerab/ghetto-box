@@ -104,6 +104,7 @@ img {
 }
 .table-cell {
   display: table-cell;
+  vertical-align: top;
 }
 .tiles-left {
   text-align: left;
@@ -859,6 +860,7 @@ img {
   }
   .sm-table-cell {
     display: table-cell;
+    vertical-align: top;
   }
   .sm-tiles-left {
     text-align: left;
@@ -1615,6 +1617,7 @@ img {
   }
   .md-table-cell {
     display: table-cell;
+    vertical-align: top;
   }
   .md-tiles-left {
     text-align: left;
@@ -2371,6 +2374,7 @@ img {
   }
   .lg-table-cell {
     display: table-cell;
+    vertical-align: top;
   }
   .lg-tiles-left {
     text-align: left;
@@ -3127,6 +3131,7 @@ img {
   }
   .xl-table-cell {
     display: table-cell;
+    vertical-align: top;
   }
   .xl-tiles-left {
     text-align: left;
