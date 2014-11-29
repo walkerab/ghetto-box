@@ -1,3 +1,6 @@
+img {
+  border: none;
+}
 html {
   font-size: 18px;
   line-height: 26px;
@@ -76,7 +79,6 @@ img {
   vertical-align: top;
 }
 .tile {
-  text-align: left;
   vertical-align: top;
   display: inline-block;
 }
@@ -106,6 +108,9 @@ img {
   display: table-cell;
   vertical-align: top;
 }
+.tiles > * {
+  text-align: left;
+}
 .tiles-left {
   text-align: left;
 }
@@ -117,6 +122,7 @@ img {
 }
 .tiles-justify {
   text-align: justify;
+  text-justify: distribute-all-lines;
   line-height: normal;
 }
 .tiles-justify:after {
@@ -832,7 +838,6 @@ img {
     vertical-align: top;
   }
   .sm-tile {
-    text-align: left;
     vertical-align: top;
     display: inline-block;
   }
@@ -862,6 +867,9 @@ img {
     display: table-cell;
     vertical-align: top;
   }
+  .sm-tiles > * {
+    text-align: left;
+  }
   .sm-tiles-left {
     text-align: left;
   }
@@ -873,6 +881,7 @@ img {
   }
   .sm-tiles-justify {
     text-align: justify;
+    text-justify: distribute-all-lines;
     line-height: normal;
   }
   .sm-tiles-justify:after {
@@ -1589,7 +1598,6 @@ img {
     vertical-align: top;
   }
   .md-tile {
-    text-align: left;
     vertical-align: top;
     display: inline-block;
   }
@@ -1619,6 +1627,9 @@ img {
     display: table-cell;
     vertical-align: top;
   }
+  .md-tiles > * {
+    text-align: left;
+  }
   .md-tiles-left {
     text-align: left;
   }
@@ -1630,6 +1641,7 @@ img {
   }
   .md-tiles-justify {
     text-align: justify;
+    text-justify: distribute-all-lines;
     line-height: normal;
   }
   .md-tiles-justify:after {
@@ -2346,7 +2358,6 @@ img {
     vertical-align: top;
   }
   .lg-tile {
-    text-align: left;
     vertical-align: top;
     display: inline-block;
   }
@@ -2376,6 +2387,9 @@ img {
     display: table-cell;
     vertical-align: top;
   }
+  .lg-tiles > * {
+    text-align: left;
+  }
   .lg-tiles-left {
     text-align: left;
   }
@@ -2387,6 +2401,7 @@ img {
   }
   .lg-tiles-justify {
     text-align: justify;
+    text-justify: distribute-all-lines;
     line-height: normal;
   }
   .lg-tiles-justify:after {
@@ -3103,7 +3118,6 @@ img {
     vertical-align: top;
   }
   .xl-tile {
-    text-align: left;
     vertical-align: top;
     display: inline-block;
   }
@@ -3133,6 +3147,9 @@ img {
     display: table-cell;
     vertical-align: top;
   }
+  .xl-tiles > * {
+    text-align: left;
+  }
   .xl-tiles-left {
     text-align: left;
   }
@@ -3144,6 +3161,7 @@ img {
   }
   .xl-tiles-justify {
     text-align: justify;
+    text-justify: distribute-all-lines;
     line-height: normal;
   }
   .xl-tiles-justify:after {

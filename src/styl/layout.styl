@@ -9,7 +9,6 @@ img
 	vertical-align top
 
 .tile
-	text-align left
 	vertical-align top
 	display inline-block
 
@@ -39,6 +38,10 @@ img
 	display table-cell
 	vertical-align top
 
+.tiles
+	& > *
+		text-align left
+
 .tiles-left
 	text-align left
 
@@ -50,6 +53,7 @@ img
 
 .tiles-justify
 	text-align justify
+	text-justify distribute-all-lines // Fix for IE collapsing font-size: 0
 	line-height normal
 	&:after
 		display inline-block
