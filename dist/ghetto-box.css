@@ -1583,7 +1583,7 @@ img {
 }
 @media all and (min-width: 992px) {
   .container {
-    max-width: 992px;
+    max-width: 962px;
     margin-left: auto;
     margin-right: auto;
   }
@@ -2343,7 +2343,7 @@ img {
 }
 @media all and (min-width: 1200px) {
   .container {
-    max-width: 1200px;
+    max-width: 1170px;
     margin-left: auto;
     margin-right: auto;
   }
@@ -3103,7 +3103,7 @@ img {
 }
 @media all and (min-width: 1400px) {
   .container {
-    max-width: 1400px;
+    max-width: 1352px;
     margin-left: auto;
     margin-right: auto;
   }

@@ -20,7 +20,7 @@ prefixed-modules()
 for screen-size-name, screen-size-value in screen-sizes
 	@media all and (min-width: screen-size-value)
 		.container
-			max-width screen-size-value
+			max-width: container-sizes[screen-size-name]
 			margin-left auto
 			margin-right auto
 			
