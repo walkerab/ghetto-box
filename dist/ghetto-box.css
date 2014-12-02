@@ -827,11 +827,20 @@ img {
 .text-right {
   text-align: right;
 }
+.text-center {
+  text-align: center;
+}
 .text-top {
   vertical-align: top;
 }
 .text-bottom {
   vertical-align: bottom;
+}
+.text-super {
+  vertical-align: super;
+}
+.text-sub {
+  vertical-align: sub;
 }
 @media all and (min-width: 768px) {
   .container {
@@ -1598,11 +1607,20 @@ img {
   .sm-text-right {
     text-align: right;
   }
+  .sm-text-center {
+    text-align: center;
+  }
   .sm-text-top {
     vertical-align: top;
   }
   .sm-text-bottom {
     vertical-align: bottom;
+  }
+  .sm-text-super {
+    vertical-align: super;
+  }
+  .sm-text-sub {
+    vertical-align: sub;
   }
 }
 @media all and (min-width: 992px) {
@@ -2370,11 +2388,20 @@ img {
   .md-text-right {
     text-align: right;
   }
+  .md-text-center {
+    text-align: center;
+  }
   .md-text-top {
     vertical-align: top;
   }
   .md-text-bottom {
     vertical-align: bottom;
+  }
+  .md-text-super {
+    vertical-align: super;
+  }
+  .md-text-sub {
+    vertical-align: sub;
   }
 }
 @media all and (min-width: 1200px) {
@@ -3142,11 +3169,20 @@ img {
   .lg-text-right {
     text-align: right;
   }
+  .lg-text-center {
+    text-align: center;
+  }
   .lg-text-top {
     vertical-align: top;
   }
   .lg-text-bottom {
     vertical-align: bottom;
+  }
+  .lg-text-super {
+    vertical-align: super;
+  }
+  .lg-text-sub {
+    vertical-align: sub;
   }
 }
 @media all and (min-width: 1400px) {
@@ -3914,10 +3950,19 @@ img {
   .xl-text-right {
     text-align: right;
   }
+  .xl-text-center {
+    text-align: center;
+  }
   .xl-text-top {
     vertical-align: top;
   }
   .xl-text-bottom {
     vertical-align: bottom;
+  }
+  .xl-text-super {
+    vertical-align: super;
+  }
+  .xl-text-sub {
+    vertical-align: sub;
   }
 }
