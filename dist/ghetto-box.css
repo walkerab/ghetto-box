@@ -133,7 +133,7 @@ img {
 .tiles-justify > * {
   text-align: left;
 }
-.h-align-middle {
+.center {
   margin-left: auto;
   margin-right: auto;
 }
@@ -892,7 +892,7 @@ img {
   .sm-tiles-justify > * {
     text-align: left;
   }
-  .sm-h-align-middle {
+  .sm-center {
     margin-left: auto;
     margin-right: auto;
   }
@@ -1652,7 +1652,7 @@ img {
   .md-tiles-justify > * {
     text-align: left;
   }
-  .md-h-align-middle {
+  .md-center {
     margin-left: auto;
     margin-right: auto;
   }
@@ -2412,7 +2412,7 @@ img {
   .lg-tiles-justify > * {
     text-align: left;
   }
-  .lg-h-align-middle {
+  .lg-center {
     margin-left: auto;
     margin-right: auto;
   }
@@ -3172,7 +3172,7 @@ img {
   .xl-tiles-justify > * {
     text-align: left;
   }
-  .xl-h-align-middle {
+  .xl-center {
     margin-left: auto;
     margin-right: auto;
   }
