@@ -821,6 +821,18 @@ img {
   font-size: 48px;
   line-height: 54px;
 }
+.text-left {
+  text-align: left;
+}
+.text-right {
+  text-align: right;
+}
+.text-top {
+  vertical-align: top;
+}
+.text-bottom {
+  vertical-align: bottom;
+}
 @media all and (min-width: 768px) {
   .container {
     max-width: 768px;
@@ -1579,6 +1591,18 @@ img {
   .sm-fs-xxl {
     font-size: 48px;
     line-height: 54px;
+  }
+  .sm-text-left {
+    text-align: left;
+  }
+  .sm-text-right {
+    text-align: right;
+  }
+  .sm-text-top {
+    vertical-align: top;
+  }
+  .sm-text-bottom {
+    vertical-align: bottom;
   }
 }
 @media all and (min-width: 992px) {
@@ -2340,6 +2364,18 @@ img {
     font-size: 48px;
     line-height: 54px;
   }
+  .md-text-left {
+    text-align: left;
+  }
+  .md-text-right {
+    text-align: right;
+  }
+  .md-text-top {
+    vertical-align: top;
+  }
+  .md-text-bottom {
+    vertical-align: bottom;
+  }
 }
 @media all and (min-width: 1200px) {
   .container {
@@ -3100,6 +3136,18 @@ img {
     font-size: 48px;
     line-height: 54px;
   }
+  .lg-text-left {
+    text-align: left;
+  }
+  .lg-text-right {
+    text-align: right;
+  }
+  .lg-text-top {
+    vertical-align: top;
+  }
+  .lg-text-bottom {
+    vertical-align: bottom;
+  }
 }
 @media all and (min-width: 1400px) {
   .container {
@@ -3859,5 +3907,17 @@ img {
   .xl-fs-xxl {
     font-size: 48px;
     line-height: 54px;
+  }
+  .xl-text-left {
+    text-align: left;
+  }
+  .xl-text-right {
+    text-align: right;
+  }
+  .xl-text-top {
+    vertical-align: top;
+  }
+  .xl-text-bottom {
+    vertical-align: bottom;
   }
 }
