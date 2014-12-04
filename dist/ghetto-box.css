@@ -15,7 +15,7 @@ html {
 }
 .tiles > * {
   font-size: 18px;
-  font-family: serif;
+  font-family: sans-serif;
 }
 .content h1,
 .content h2,
