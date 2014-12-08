@@ -1,9 +1,18 @@
-img {
-  border: none;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
 }
 html {
   font-size: 18px;
   line-height: 26px;
+  font-family: sans-serif;
+}
+img {
+  vertical-align: top;
+  border: none;
 }
 @font-face {
   font-family: empty;
@@ -67,16 +76,6 @@ html {
 }
 .readable-width {
   max-width: 30em;
-}
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  -moz-box-sizing: border-box;
-  -webkit-box-sizing: border-box;
-}
-img {
-  vertical-align: top;
 }
 .tile {
   vertical-align: top;
@@ -847,16 +846,6 @@ img {
     max-width: 768px;
     margin-left: auto;
     margin-right: auto;
-  }
-  * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    -moz-box-sizing: border-box;
-    -webkit-box-sizing: border-box;
-  }
-  img {
-    vertical-align: top;
   }
   .sm-tile {
     vertical-align: top;
@@ -1629,16 +1618,6 @@ img {
     margin-left: auto;
     margin-right: auto;
   }
-  * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    -moz-box-sizing: border-box;
-    -webkit-box-sizing: border-box;
-  }
-  img {
-    vertical-align: top;
-  }
   .md-tile {
     vertical-align: top;
     display: inline-block;
@@ -2410,16 +2389,6 @@ img {
     margin-left: auto;
     margin-right: auto;
   }
-  * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    -moz-box-sizing: border-box;
-    -webkit-box-sizing: border-box;
-  }
-  img {
-    vertical-align: top;
-  }
   .lg-tile {
     vertical-align: top;
     display: inline-block;
@@ -3190,16 +3159,6 @@ img {
     max-width: 1352px;
     margin-left: auto;
     margin-right: auto;
-  }
-  * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    -moz-box-sizing: border-box;
-    -webkit-box-sizing: border-box;
-  }
-  img {
-    vertical-align: top;
   }
   .xl-tile {
     vertical-align: top;
