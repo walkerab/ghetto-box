@@ -44,13 +44,14 @@
 .tiles-justify
 	text-align justify
 	text-justify distribute-all-lines // Fix for IE collapsing font-size: 0
-	line-height normal
+	line-height normal // Needed to prevent :after from taking up a line (I have no idea why, but it works)
 	&:after
 		display inline-block
 		content ""
 		width 100%
 	> *
 		text-align left
+		line-height line-height
 
 .center {
 	margin-left: auto;
