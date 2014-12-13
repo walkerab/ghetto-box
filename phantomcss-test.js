@@ -11,7 +11,7 @@ var test_files = [
 	'tests/widths.html'
 ];
 
-var page_delay = 100; // TODO: Fine tune this number. Can we get away with using 0 instead?
+var page_delay = 10; // TODO: Fine tune this number. Can we get away with using 0 instead?
 
 var screen_sizes = [
 	320,
@@ -24,7 +24,8 @@ var screen_sizes = [
 phantomcss.init({
 	screenshotRoot: 'tests/screenshots',
 	failedComparisonsRoot: 'tests/screenshot-failures',
-	libraryRoot: 'node_modules/phantomcss'
+	libraryRoot: 'node_modules/phantomcss',
+	mismatchTolerance: 0.0
 });
 
 casper.start();
