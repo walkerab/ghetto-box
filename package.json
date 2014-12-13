@@ -9,7 +9,9 @@
   "dependencies": {
     "stylus": "^0.49.3"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "phantomcss": "^0.9.1"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
