@@ -1,17 +1,19 @@
+// The use of !important here is to allow overriding the spaced-out-* classes.
+// I consider the use of !important to be harmless here as I cannot think of any use case where you would be using the class and not want to have it take precedence.
 for padding-name, padding-size in padding-sizes
 	.pad-{padding-name}
-		padding padding-size
+		padding padding-size !important
 	.pad-h-{padding-name}
-		padding-left padding-size
-		padding-right padding-size
+		padding-left padding-size !important
+		padding-right padding-size !important
 	.pad-v-{padding-name}
-		padding-top padding-size
-		padding-bottom padding-size
+		padding-top padding-size !important
+		padding-bottom padding-size !important
 	.pad-top-{padding-name}
-		padding-top padding-size
+		padding-top padding-size !important
 	.pad-bottom-{padding-name}
-		padding-bottom padding-size
+		padding-bottom padding-size !important
 	.pad-left-{padding-name}
-		padding-left padding-size
+		padding-left padding-size !important
 	.pad-right-{padding-name}
-		padding-right padding-size
+		padding-right padding-size !important
