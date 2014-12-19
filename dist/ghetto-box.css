@@ -101,6 +101,15 @@ img {
   display: table-cell;
   vertical-align: top;
 }
+.table-cell-top {
+  vertical-align: top;
+}
+.table-cell-middle {
+  vertical-align: middle;
+}
+.table-cell-bottom {
+  vertical-align: bottom;
+}
 .tiles > * {
   text-align: left;
 }
@@ -894,6 +903,15 @@ img {
   .sm-table-cell {
     display: table-cell;
     vertical-align: top;
+  }
+  .sm-table-cell-top {
+    vertical-align: top;
+  }
+  .sm-table-cell-middle {
+    vertical-align: middle;
+  }
+  .sm-table-cell-bottom {
+    vertical-align: bottom;
   }
   .sm-tiles > * {
     text-align: left;
@@ -1690,6 +1708,15 @@ img {
     display: table-cell;
     vertical-align: top;
   }
+  .md-table-cell-top {
+    vertical-align: top;
+  }
+  .md-table-cell-middle {
+    vertical-align: middle;
+  }
+  .md-table-cell-bottom {
+    vertical-align: bottom;
+  }
   .md-tiles > * {
     text-align: left;
   }
@@ -2485,6 +2512,15 @@ img {
     display: table-cell;
     vertical-align: top;
   }
+  .lg-table-cell-top {
+    vertical-align: top;
+  }
+  .lg-table-cell-middle {
+    vertical-align: middle;
+  }
+  .lg-table-cell-bottom {
+    vertical-align: bottom;
+  }
   .lg-tiles > * {
     text-align: left;
   }
@@ -3279,6 +3315,15 @@ img {
   .xl-table-cell {
     display: table-cell;
     vertical-align: top;
+  }
+  .xl-table-cell-top {
+    vertical-align: top;
+  }
+  .xl-table-cell-middle {
+    vertical-align: middle;
+  }
+  .xl-table-cell-bottom {
+    vertical-align: bottom;
   }
   .xl-tiles > * {
     text-align: left;
