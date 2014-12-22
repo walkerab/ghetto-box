@@ -35,6 +35,16 @@ html,
 	font-size: 26px;
 }
 
+.grouped-border:not(:first-of-type) {
+	border-left-width: 0;
+	border-top-left-radius: 0;
+	border-bottom-left-radius: 0;
+}
+.grouped-border:not(:last-of-type) {
+	border-top-right-radius: 0;
+	border-bottom-right-radius: 0;
+}
+
 .btn {
 	text-decoration: none;
 	vertical-align: middle;

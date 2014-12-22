@@ -839,26 +839,6 @@ img {
 .pad-right-xl {
   padding-right: 104px;
 }
-.grouped-border.tile:not(:first-of-type),
-.grouped-border.table-cell:not(:first-of-type) {
-  border-left-width: 0;
-  border-top-left-radius: 0;
-  border-bottom-left-radius: 0;
-}
-.grouped-border.tile:not(:last-of-type),
-.grouped-border.table-cell:not(:last-of-type) {
-  border-top-right-radius: 0;
-  border-bottom-right-radius: 0;
-}
-.grouped-border:not(.tile):not(.table-cell):not(:first-of-type) {
-  border-top-width: 0;
-  border-top-left-radius: 0;
-  border-top-right-radius: 0;
-}
-.grouped-border:not(.tile):not(.table-cell):not(:last-of-type) {
-  border-bottom-right-radius: 0;
-  border-bottom-left-radius: 0;
-}
 .fs-xs {
   font-size: 9px;
   line-height: 13px;
@@ -1677,26 +1657,6 @@ img {
   }
   .sm-pad-right-xl {
     padding-right: 104px;
-  }
-  .sm-grouped-border.sm-tile:not(:first-of-type),
-  .sm-grouped-border.sm-table-cell:not(:first-of-type) {
-    border-left-width: 0;
-    border-top-left-radius: 0;
-    border-bottom-left-radius: 0;
-  }
-  .sm-grouped-border.sm-tile:not(:last-of-type),
-  .sm-grouped-border.sm-table-cell:not(:last-of-type) {
-    border-top-right-radius: 0;
-    border-bottom-right-radius: 0;
-  }
-  .sm-grouped-border:not(.sm-tile):not(.sm-table-cell):not(:first-of-type) {
-    border-top-width: 0;
-    border-top-left-radius: 0;
-    border-top-right-radius: 0;
-  }
-  .sm-grouped-border:not(.sm-tile):not(.sm-table-cell):not(:last-of-type) {
-    border-bottom-right-radius: 0;
-    border-bottom-left-radius: 0;
   }
   .sm-fs-xs {
     font-size: 9px;
@@ -2518,26 +2478,6 @@ img {
   .md-pad-right-xl {
     padding-right: 104px;
   }
-  .md-grouped-border.md-tile:not(:first-of-type),
-  .md-grouped-border.md-table-cell:not(:first-of-type) {
-    border-left-width: 0;
-    border-top-left-radius: 0;
-    border-bottom-left-radius: 0;
-  }
-  .md-grouped-border.md-tile:not(:last-of-type),
-  .md-grouped-border.md-table-cell:not(:last-of-type) {
-    border-top-right-radius: 0;
-    border-bottom-right-radius: 0;
-  }
-  .md-grouped-border:not(.md-tile):not(.md-table-cell):not(:first-of-type) {
-    border-top-width: 0;
-    border-top-left-radius: 0;
-    border-top-right-radius: 0;
-  }
-  .md-grouped-border:not(.md-tile):not(.md-table-cell):not(:last-of-type) {
-    border-bottom-right-radius: 0;
-    border-bottom-left-radius: 0;
-  }
   .md-fs-xs {
     font-size: 9px;
     line-height: 13px;
@@ -3358,26 +3298,6 @@ img {
   .lg-pad-right-xl {
     padding-right: 104px;
   }
-  .lg-grouped-border.lg-tile:not(:first-of-type),
-  .lg-grouped-border.lg-table-cell:not(:first-of-type) {
-    border-left-width: 0;
-    border-top-left-radius: 0;
-    border-bottom-left-radius: 0;
-  }
-  .lg-grouped-border.lg-tile:not(:last-of-type),
-  .lg-grouped-border.lg-table-cell:not(:last-of-type) {
-    border-top-right-radius: 0;
-    border-bottom-right-radius: 0;
-  }
-  .lg-grouped-border:not(.lg-tile):not(.lg-table-cell):not(:first-of-type) {
-    border-top-width: 0;
-    border-top-left-radius: 0;
-    border-top-right-radius: 0;
-  }
-  .lg-grouped-border:not(.lg-tile):not(.lg-table-cell):not(:last-of-type) {
-    border-bottom-right-radius: 0;
-    border-bottom-left-radius: 0;
-  }
   .lg-fs-xs {
     font-size: 9px;
     line-height: 13px;
@@ -4197,26 +4117,6 @@ img {
   }
   .xl-pad-right-xl {
     padding-right: 104px;
-  }
-  .xl-grouped-border.xl-tile:not(:first-of-type),
-  .xl-grouped-border.xl-table-cell:not(:first-of-type) {
-    border-left-width: 0;
-    border-top-left-radius: 0;
-    border-bottom-left-radius: 0;
-  }
-  .xl-grouped-border.xl-tile:not(:last-of-type),
-  .xl-grouped-border.xl-table-cell:not(:last-of-type) {
-    border-top-right-radius: 0;
-    border-bottom-right-radius: 0;
-  }
-  .xl-grouped-border:not(.xl-tile):not(.xl-table-cell):not(:first-of-type) {
-    border-top-width: 0;
-    border-top-left-radius: 0;
-    border-top-right-radius: 0;
-  }
-  .xl-grouped-border:not(.xl-tile):not(.xl-table-cell):not(:last-of-type) {
-    border-bottom-right-radius: 0;
-    border-bottom-left-radius: 0;
   }
   .xl-fs-xs {
     font-size: 9px;
