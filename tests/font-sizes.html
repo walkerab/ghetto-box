@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Font Size / Line Height</title>
+	<link rel="stylesheet" href="../dist/ghetto-box.css">
+	<style>
+		div {
+			outline: 1px solid green;
+			margin-bottom: 1em;
+			text-align: center;
+		}
+	</style>
+</head>
+<body>
+	<div id="content"></div>
+	<script>
+		var el_content = document.getElementById('content');
+		var sizes = ['xs','sm','md','lg','xl','xxl'];
+
+		var test_text = 'ghettoBOX';
+
+		var html = [];
+		sizes.forEach(function(line_size) {
+			html.push('<h3>line-height: ',line_size,'</h3>');
+			sizes.forEach(function(font_size) {
+				html.push(
+					'<div class="fs-',font_size,' lh-',line_size,'">',
+						font_size,': ',test_text,
+					'</div>'
+				);
+			});
+		});
+
+		el_content.innerHTML = html.join('');
+	</script>
+</body>
+</html>
