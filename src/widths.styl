@@ -1,4 +1,5 @@
 .w-fill
+	@extend $border-box
 	width 100%
 
 .shift
@@ -9,11 +10,13 @@
 
 for x in widths
 	.w-{x}
+		@extend $border-box
 		width (x * line-height)
 
 for denominator in width-denominators
 	for numerator in (1..(denominator))
 		.w-{numerator}-{denominator}
+			@extend $border-box
 			width (100 * numerator/denominator)%
 		
 		.shift-left-{numerator}-{denominator}

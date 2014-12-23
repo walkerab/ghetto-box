@@ -1,6 +1,11 @@
 nearest-full-multiple(approach-number, multiply-by)
 	multiply-by * floor(approach-number / multiply-by)
 
+$border-box
+	-moz-box-sizing border-box
+	-webkit-box-sizing border-box
+	box-sizing border-box
+
 @import 'variables.styl'
 @import 'reset.styl'
 @import 'no-space.styl'
@@ -20,6 +25,11 @@ prefixed-modules()
 
 prefixed-modules()
 
+.ghetto-wrapper
+	@extend $border-box
+	margin-left auto
+	margin-right auto
+
 first-screen-size = true
 for screen-size-name, screen-size-value in screen-sizes
 	@media all and (min-width: screen-size-value)
@@ -28,8 +38,6 @@ for screen-size-name, screen-size-value in screen-sizes
 				max-width screen-size-value
 			else
 				max-width: nearest-full-multiple(screen-size-value - scrollbar-width, line-height)px
-			margin-left auto
-			margin-right auto
 			
 		+prefix-classes(screen-size-name + '-')
 			prefixed-modules()
