@@ -1380,7 +1380,7 @@ img {
 }
 @media all and (min-width: 480px) {
   .ghetto-wrapper {
-    max-width: 480px;
+    width: 480px;
   }
   .xs-tile {
     vertical-align: top;
@@ -2219,7 +2219,7 @@ img {
 }
 @media all and (min-width: 768px) {
   .ghetto-wrapper {
-    max-width: 728px;
+    width: 728px;
   }
   .sm-tile {
     vertical-align: top;
@@ -3058,7 +3058,7 @@ img {
 }
 @media all and (min-width: 992px) {
   .ghetto-wrapper {
-    max-width: 962px;
+    width: 962px;
   }
   .md-tile {
     vertical-align: top;
@@ -3897,7 +3897,7 @@ img {
 }
 @media all and (min-width: 1200px) {
   .ghetto-wrapper {
-    max-width: 1170px;
+    width: 1170px;
   }
   .lg-tile {
     vertical-align: top;
@@ -4736,7 +4736,7 @@ img {
 }
 @media all and (min-width: 1400px) {
   .ghetto-wrapper {
-    max-width: 1378px;
+    width: 1378px;
   }
   .xl-tile {
     vertical-align: top;

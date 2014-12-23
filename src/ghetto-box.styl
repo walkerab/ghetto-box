@@ -34,10 +34,12 @@ first-screen-size = true
 for screen-size-name, screen-size-value in screen-sizes
 	@media all and (min-width: screen-size-value)
 		.ghetto-wrapper
+			// IE8 has problems with using max-width and border-box together so we use width instead
+			// See http://getbootstrap.com/getting-started/#support-ie8-box-sizing
 			if first-screen-size
-				max-width screen-size-value
+				width screen-size-value
 			else
-				max-width: nearest-full-multiple(screen-size-value - scrollbar-width, line-height)px
+				width: nearest-full-multiple(screen-size-value - scrollbar-width, line-height)px
 			
 		+prefix-classes(screen-size-name + '-')
 			prefixed-modules()
