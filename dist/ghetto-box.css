@@ -902,9 +902,9 @@ img {
 .text-sub {
   vertical-align: sub;
 }
-@media all and (min-width: 320px) {
+@media all and (min-width: 480px) {
   .ghetto-wrapper {
-    max-width: ;
+    max-width: 480px;
     margin-left: auto;
     margin-right: auto;
   }
@@ -1742,7 +1742,7 @@ img {
 }
 @media all and (min-width: 768px) {
   .ghetto-wrapper {
-    max-width: 768px;
+    max-width: 728px;
     margin-left: auto;
     margin-right: auto;
   }
@@ -4256,7 +4256,7 @@ img {
 }
 @media all and (min-width: 1400px) {
   .ghetto-wrapper {
-    max-width: 1352px;
+    max-width: 1378px;
     margin-left: auto;
     margin-right: auto;
   }

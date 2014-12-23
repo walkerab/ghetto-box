@@ -1,3 +1,6 @@
+nearest-full-multiple(approach-number, multiply-by)
+	multiply-by * floor(approach-number / multiply-by)
+
 @import 'variables.styl'
 @import 'reset.styl'
 @import 'no-space.styl'
@@ -17,12 +20,17 @@ prefixed-modules()
 
 prefixed-modules()
 
+first-screen-size = true
 for screen-size-name, screen-size-value in screen-sizes
 	@media all and (min-width: screen-size-value)
 		.ghetto-wrapper
-			max-width: wrapper-sizes[screen-size-name]
+			if first-screen-size
+				max-width screen-size-value
+			else
+				max-width: nearest-full-multiple(screen-size-value - scrollbar-width, line-height)px
 			margin-left auto
 			margin-right auto
 			
 		+prefix-classes(screen-size-name + '-')
 			prefixed-modules()
+	first-screen-size = false
