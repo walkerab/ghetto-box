@@ -7,11 +7,11 @@
 .no-shift
 	position static
 
-for x in (1..30)
+for x in widths
 	.w-{x}
 		width (x * line-height)
 
-for denominator in widths
+for denominator in width-denominators
 	for numerator in (1..(denominator))
 		.w-{numerator}-{denominator}
 			width (100 * numerator/denominator)%

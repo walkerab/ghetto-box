@@ -15,6 +15,7 @@ var page_delay = 10; // TODO: Fine tune this number. Can we get away with using 
 
 var screen_sizes = [
 	320,
+	480,
 	768,
 	992,
 	1200,

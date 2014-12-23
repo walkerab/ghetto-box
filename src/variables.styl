@@ -1,6 +1,33 @@
+// The defaults.
 font-family = sans-serif
-font-size = 18px
-line-height = 26px
+font-size = 18px // should correspond to font-sizes['md'] (below)
+line-height = 26px // should correspond to line-heights['md'] (below)
+
+// These correspond to breakpoints
+screen-sizes = {
+	xs: 320px,
+	sm: 768px,
+	md: 992px,
+	lg: 1200px,
+	xl: 1400px
+}
+
+// These are the max-width for `.ghetto-wrapper` at each breakpoint (above).
+// It must typically be smaller than the screen size to account for scroll-bar width. According to http://www.textfixer.com/tutorials/browser-scrollbar-width.php, you should have at least a 17px difference.
+// On the smallest screen size, we needn't have any difference because for anything smaller, the wrapper just fills the width.
+wrapper-sizes = {
+	sm: 768px,
+	md: line-height * 37, // 962px
+	lg: line-height * 45 // 1170px
+	xl: line-height * 52 // 1352px
+}
+
+// These are the denominators for the `.w-{numerator}-{denominator}` classes (see `widths.styl`).
+// Simply add the ones you want. e.g. If you want `.w-2-9`, add a `9` to this list.
+width-denominators = 2 3 4 5 6 7 8 12
+
+// For the `.w-*` classes which are widths in multiples of the default line-height.
+widths = (1..30)
 
 font-sizes = {
 	xs: 9px,
@@ -28,20 +55,3 @@ padding-sizes = {
 	lg: line-height * 2,
 	xl: line-height * 4,
 }
-
-screen-sizes = {
-	sm: 768px,
-	md: 992px,
-	lg: 1200px,
-	xl: 1400px
-}
-
-/* The wrapper size (except for the smallest) must be smaller than the screen size to account for scroll-bar width. According to http://www.textfixer.com/tutorials/browser-scrollbar-width.php, you should have at least 17px difference. */
-wrapper-sizes = {
-	sm: 768px,
-	md: 962px,
-	lg: 1170px,
-	xl: 1352px
-}
-
-widths = 2 3 4 5 6 7 8 12
