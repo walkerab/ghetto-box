@@ -473,7 +473,6 @@
 }
 * {
   margin: 0;
-  padding: 0;
 }
 html {
   font-size: 18px;
@@ -579,6 +578,9 @@ img {
 }
 .table-cell-bottom {
   vertical-align: bottom;
+}
+.tiles {
+  padding: 0;
 }
 .tiles > * {
   text-align: left;
@@ -1419,6 +1421,9 @@ img {
   .xs-table-cell-bottom {
     vertical-align: bottom;
   }
+  .xs-tiles {
+    padding: 0;
+  }
   .xs-tiles > * {
     text-align: left;
   }
@@ -2254,6 +2259,9 @@ img {
   }
   .sm-table-cell-bottom {
     vertical-align: bottom;
+  }
+  .sm-tiles {
+    padding: 0;
   }
   .sm-tiles > * {
     text-align: left;
@@ -3091,6 +3099,9 @@ img {
   .md-table-cell-bottom {
     vertical-align: bottom;
   }
+  .md-tiles {
+    padding: 0;
+  }
   .md-tiles > * {
     text-align: left;
   }
@@ -3927,6 +3938,9 @@ img {
   .lg-table-cell-bottom {
     vertical-align: bottom;
   }
+  .lg-tiles {
+    padding: 0;
+  }
   .lg-tiles > * {
     text-align: left;
   }
@@ -4762,6 +4776,9 @@ img {
   }
   .xl-table-cell-bottom {
     vertical-align: bottom;
+  }
+  .xl-tiles {
+    padding: 0;
   }
   .xl-tiles > * {
     text-align: left;
