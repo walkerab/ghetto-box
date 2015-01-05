@@ -12,6 +12,10 @@ for x in widths
 	.w-{x}
 		@extend $border-box
 		width (x * line-height)
+		
+	.max-w-{x}
+		@extend $border-box
+		max-width (x * line-height)
 
 for denominator in width-denominators
 	for numerator in (1..(denominator))
@@ -19,6 +23,10 @@ for denominator in width-denominators
 			@extend $border-box
 			width (100 * numerator/denominator)%
 		
+		.max-w-{numerator}-{denominator}
+			@extend $border-box
+			max-width (100 * numerator/denominator)%
+
 		.shift-left-{numerator}-{denominator}
 			right (100 * numerator/denominator)%
 			
